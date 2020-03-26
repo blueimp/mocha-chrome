@@ -8,7 +8,6 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     nodejs \
     npm \
     netcat \
-  # Remove obsolete files:
   && npm install -g \
     npm@latest \
     mocha-chrome \
