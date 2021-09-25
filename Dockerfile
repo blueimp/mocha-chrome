@@ -10,7 +10,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     netcat \
   && npm install -g \
     npm@latest \
-    mocha-chrome \
+    blueimp-mocha-chrome@2 \
   && apt-get clean \
   && rm -rf \
     /root/.npm \
